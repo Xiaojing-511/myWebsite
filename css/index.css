@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html{
+	scroll-behavior: smooth;
+}
+#nav{
+	width: 500px;
+	background: url(../img/beijing.jpg) no-repeat center / cover;
+	/* background-image: url(../img/1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; */
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
+#nav-info{
+	padding: 32px;
+	text-align: right;
+	color: rgba(255,255,255,0.5);
+}
+#nav-info i{
+	font-size: 22px;
+	margin-right: 7px;
+}
+#nav-info h3 .icon-shouji{
+	font-size: 18px;
+}
+#nav-info h3 .icon-emial{
+	font-size: 23px;
+	margin-right: 3px;
+}
+#nav-info img{
+	width: 100px;
+	border-radius: 50%;
+	border: 2px solid rgba(255,255,255,0.4);
+	margin-bottom: 10px;
+}
+#nav-info h1,h3{
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+
+.nav-menu{
+	text-align: right;
+	padding: 65px 48px 0 48px;
+}
+
+.nav-menu-list { 
+	list-style: none; /*去除列表前标记*/
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.nav-menu-list a{
+	color: rgba(85, 26, 139,0.4);
+}
+.nav-menu-list a:hover{
+	color: rgb(85, 26, 139);
+}
+
+.nav-menu-list a{
+	text-decoration: none;
+}
+
+#main{
+	width: 860px;
+	/* height: 500px; */
+	/* background-color: antiquewhite; */
+	position: relative;
+	left: 500px;
+	color: #787878;
+}
+#home{
+	
+}
+.main-title{
+	margin-bottom: 30px;
+	/* font-weight: ; */
+	font-size: 27px;
+	font-family: "微软雅黑 Light";
+	white-space: pre;
+	text-shadow: 2px 2px 35px #787878;
+}
+.main-padding{
+	padding: 64px;
+}
+.main-title i{
+	font-size: 29px;
+	margin-right: 5px;
+}
+.main-border{
+	border-top: 1px solid #ddd;
+}
+
+#home-title{
+	margin-top: 20px;
+	font-style: italic;
+}
+#home img{
+	width: 550px;
+	margin: 45px 0 0 90px;
+} 
+
+#about{
+	height: 500px;
+}
+
+#skill{
+	
+}
+#skill ul li{
+	margin-bottom: 5px;
+}
+.skill-list{
+	list-style-type: disc;
+}
+.project-list{
+	width: 50%;
+	list-style-type: none;
+	float: left;
+	display: flex;  //弹性盒模型
+}
+.project-list-icon{
+	width: 100px;
+	height: 100px;
+	border: 2px solid #ddd;
+	line-height: 100px;
+	text-align: center;
+	font-size: 26px;
+	color: #B69CA9;
+	float: left;
+	margin-bottom: 50px;
+}
+.project-list-icon:hover{
+	border-radius: 50%;
+	color: #DDAAA9;
+	transition: all 0.5s ease;  //过渡
+}
+.project-list-icon i{
+	font-size: 26px;
+}
+.project-list-info{
+	flex: 1;
+	margin: 0 10px;
+	overflow: hidden;
+	white-space: normal;
+	word-break: break-all; 
+}
+.project-list-info h5{
+	/* font-weight: normal; */
+	margin-top: 5px;
+}
+.project-list-info a{
+	color: #787878;
+	text-decoration: none;
+}
+.project-list-info a:hover{
+	color: #DDAAA9;
+}
+.project-list-details{
+	margin-top: 5px;
+}
+#recommend{
+	width: 160px;
+	height: 500px;
+	background-color: rgba(85, 26, 139,0.5);
+	position: fixed;
+	right: 0;
+	top: 100px;
+}
